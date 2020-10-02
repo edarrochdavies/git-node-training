@@ -4,5 +4,5 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 app.listen(3000, function () {
-  console.log('This is our first app');
+  console.log('our first app is up and running 1337!');
 });
