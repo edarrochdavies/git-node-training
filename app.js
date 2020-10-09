@@ -16,6 +16,10 @@ app.get("/about", function (req, res) {
   res.render("pages/about");
 });
 
+app.get("/pullRequests", function (req, res) {
+  res.render("pages/pullRequests");
+});
+
 app.listen(3000, function () {
   console.log("our first app is up and running");
 });
