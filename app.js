@@ -17,5 +17,5 @@ app.get("/about", function (req, res) {
 });
 
 app.listen(3000, function () {
-  console.log("our first app is up and running 1337!");
+  console.log("our first app is up and running");
 });
